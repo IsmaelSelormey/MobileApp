@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:project/home/main_food_page.dart';
 import 'package:get/get.dart';
+import 'package:project/onboarding_screen.dart';
+import 'package:project/signin.dart';
+import 'package:project/signup.dart';
 void main() {
   runApp(const MyApp());
 }
