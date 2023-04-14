@@ -1,6 +1,6 @@
-import 'package:delivery_app/home.dart';
-import 'package:delivery_app/reusablewidgets/reusablewidgets.dart';
-import 'package:delivery_app/utils/colour_utils.dart';
+import 'package:project/home.dart';
+import 'package:project/reusablewidgets/reusablewidgets.dart';
+import 'package:project/utils/colour_utils.dart';
 import 'package:flutter/material.dart';
 
 class SignUpView extends StatefulWidget {
