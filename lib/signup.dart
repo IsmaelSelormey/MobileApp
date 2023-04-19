@@ -1,4 +1,5 @@
 import 'package:project/home.dart';
+import 'package:project/pages/home/main_food_page.dart';
 import 'package:project/reusablewidgets/reusablewidgets.dart';
 import 'package:project/utils/colour_utils.dart';
 import 'package:flutter/material.dart';
@@ -76,7 +77,7 @@ class _SignUpViewState extends State<SignUpView> {
                 ),
                 signInSignUpButton(context, false, () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => HomeView()));
+                      MaterialPageRoute(builder: (context) => MainFoodPage()));
                 })
               ],
             ),

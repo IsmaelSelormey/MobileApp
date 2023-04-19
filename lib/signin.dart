@@ -1,4 +1,5 @@
 import 'package:project/home.dart';
+import 'package:project/pages/home/main_food_page.dart';
 import 'package:project/reusablewidgets/reusablewidgets.dart';
 import 'package:project/signup.dart';
 import 'package:project/utils/colour_utils.dart';
@@ -34,7 +35,7 @@ class _SignInViewState extends State<SignInView> {
                 20, MediaQuery.of(context).size.height * 0.08, 20, 0),
             child: Column(
               children: <Widget>[
-                logoWidget("assets/images/img1.png"),
+                logoWidget("assets/image/img1.png"),
                 SizedBox(
                   height: 15,
                 ),
@@ -72,7 +73,7 @@ class _SignInViewState extends State<SignInView> {
                   height: 20,
                 ),
                 signInSignUpButton(context, true, () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => HomeView()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => MainFoodPage()));
                 }),
                 signUpOption(),
               ],

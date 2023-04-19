@@ -37,7 +37,7 @@ class _OnboardingViewState extends State<OnboardingView> {
                         padding: const EdgeInsets.symmetric(horizontal: 0),
                         child: Column(
                           children: <Widget>[
-                logoWidget("assets/images/img1.png"),
+                logoWidget("assets/image/img1.png"),
                 SizedBox(
                   height: 50,
                 ),
