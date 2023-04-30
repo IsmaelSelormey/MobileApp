@@ -14,6 +14,7 @@ import 'package:project/widget/app_icon.dart';
 import '../../../colors.dart';
 import '../../../widget/Icons_and_text_widget.dart';
 import '../../../widget/big_texts.dart';
+import '../../../widget/expandable_text_widget.dart';
 import '../../../widget/small_text.dart';
 
 class PopularFoodDetail extends StatelessWidget {
@@ -75,9 +76,9 @@ class PopularFoodDetail extends StatelessWidget {
                 ),
                 color: Colors.white,
               ),
-<<<<<<< Updated upstream
+
               child: AppColumn(text: "Jambo Chicken",) ,
-=======
+
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -89,13 +90,13 @@ class PopularFoodDetail extends StatelessWidget {
                   Expanded(child: SingleChildScrollView(child: ExpandableTextWidget(text:product.description!))),
                 ],
               ),
->>>>>>> Stashed changes
+
 
           )),
         ],
       ),
-<<<<<<< Updated upstream
-=======
+
+
       bottomNavigationBar: GetBuilder<PopularProductController>(builder: (popuplarProduct){
         return Container(
           height: Dimensions.bottomHeightBar ,
@@ -149,7 +150,7 @@ class PopularFoodDetail extends StatelessWidget {
           ),
         );
       },)
->>>>>>> Stashed changes
+
     );
   }
 }
