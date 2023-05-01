@@ -49,7 +49,7 @@ class _OnboardingViewState extends State<OnboardingView> {
                 ),),
                             Align(
                               alignment: Alignment.centerLeft,
-                              child: Text("Welcome to ******* Deliveries",
+                              child: Text("Welcome to Swift Deliveries",
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 25,
