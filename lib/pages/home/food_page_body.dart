@@ -81,17 +81,19 @@ class _FoodPageState extends State<FoodPageBody> {
 
 
         //dots
-        new DotsIndicator(
-          dotsCount: 5,
-          position: _currPageValue,
-          decorator: DotsDecorator(
-            activeColor: AppColors.mainColor,
-            size: const Size.square(9.0),
-            activeSize: const Size(18.0, 9.0),
-            activeShape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(5.0)),
-          ),
-        ),
+        GetBuilder<PopularProductController>(builder:(popularProducts){
+          return DotsIndicator(
+            dotsCount: popularProducts.popularProductList.isEmpty?1:popularProducts.popularProductList.length,
+            position: _currPageValue,
+            decorator: DotsDecorator(
+              activeColor: AppColors.mainColor,
+              size: const Size.square(9.0),
+              activeSize: const Size(18.0, 9.0),
+              activeShape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(5.0)),
+            ),
+          );
+        }),
         //Popular text
         SizedBox(height: Dimensions.height30,),
         Container(
