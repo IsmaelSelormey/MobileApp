@@ -77,8 +77,6 @@ class PopularFoodDetail extends StatelessWidget {
                 color: Colors.white,
               ),
 
-              child: AppColumn(text: "Jambo Chicken",) ,
-
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
